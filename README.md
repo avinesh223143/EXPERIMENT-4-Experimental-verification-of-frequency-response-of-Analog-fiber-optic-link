@@ -2,12 +2,12 @@
 # Exp 4 Experimental verification of frequency response of Analog fiber optic link
 # Fiber Optic Link Analysis (660nm)
 
-## AIM
+## AIM:
 To analyze the relationship between input and received signal of a 660nm fiber optic cable using analog and digital link.
 
 ---
 
-## EQUIPMENTS REQUIRED
+## EQUIPMENTS REQUIRED:
 - Fiber optic trainer kit ST 2502  
 - Power supply  
 - Patch cords  
@@ -16,7 +16,7 @@ To analyze the relationship between input and received signal of a 660nm fiber o
 
 ---
 
-## THEORY
+## THEORY:
 
 Fiber optic links can be used for transmission of digital as well as analog signals. A fiber optic link typically consists of three main elements:
 - **Transmitter**: Converts the electrical input signal into optical (light) energy.
@@ -25,7 +25,7 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ---
 
-## PROCEDURE
+## PROCEDURE:
 
 1. Connect the power supply to the board.  
 2. Ensure that all switched faults are set to ‘Off’.  
@@ -41,10 +41,10 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ---
 
-## BLOCK DIAGRAM
+## BLOCK DIAGRAM:
 <img width="433" height="258" alt="image" src="https://github.com/user-attachments/assets/d7782ce0-f79e-4def-a5bb-29cee0dd91fe" />
 
-## TABULATION  
+## TABULATION:
 **Transmission through Analog Link**
 
 | Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
@@ -64,9 +64,13 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 |      800k      |           95 mV              |    0.19      |  -34.424   |
 |      1M        |           58 mV              |    0.011     |  -39.172   |
 
-## MODEL GRAPH
+## MODEL GRAPH:
 <img width="487" height="220" alt="image" src="https://github.com/user-attachments/assets/f3072b68-a9fd-4112-b3b7-8b3d8fab1d42" />
 
-## RESULT
+## GRAPH:
+![WhatsApp Image 2025-11-16 at 21 59 45_135f009c](https://github.com/user-attachments/assets/62d903b1-19b5-4197-93b4-a1f4036e6c8b)
+
+
+## RESULT:
 Thus, the frequency response of the analog fiber optic link was successfully studied, and the bandwidth was determined to be 95 kHz.
 ---
