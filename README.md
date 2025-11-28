@@ -29,17 +29,34 @@ current flows through its emitter generating the voltage across the resistance c
 
 ## PROCEDURE:
 
-1. Connect the power supply to the board.  
-2. Ensure that all switched faults are set to ‘Off’.  
-3. Make the following connections (as shown in Figure 19):  
-   a. Connect the 1KHz sine wave output to emitter 1's input.  
-   b. Connect the fiber optic cable between emitter output and detector input.  
-   c. Connect detector 1's output to AC amplifier 1 input.  
-4. On the board, switch emitter 1's driver to analog mode.  
-5. Switch on the power.  
-6. Observe the input to emitter 1 (TP5) and the output from AC amplifier 1 (TP28). Verify that both signals are identical.  
-7. Vary the frequency between 10 Hz to 1 MHz and observe the output voltage for a constant input voltage of 5V.  
-8. Calculate the bandwidth by determining the gain in decibels (dB).  
+-	Refer to the block diagram & carry out the following connections and settings.
+-	Connect the power supply with proper polarity to the kit link-B and switch it on.
+-	Keep all Switch Faults in OFF position.
+-	Keep switch SW8 towards TX position.
+-	Keep switch SW9 towards TX1 position.
+-	Keep Jumper JP5 towards +12V position.
+-	Keep Jumpers JP6, JP9, JP10 shorted.
+-	Keep Jumper JP8 towards sine position.
+-	Keep Intensity control pot P2 towards minimum position.
+-	Feed about 2Vpp sinusoidal signal of 1 KHz from the function generator to the IN post of Analog Buffer.
+
+<img width="510" height="292" alt="image" src="https://github.com/user-attachments/assets/ffed133d-ce91-4c8d-a24d-37225b8a89bf" />
+
+-	Connect the output post OUT of Analog Buffer to the post TX IN of Transmitter.
+-	Slightly unscrew the cap of SFH756V (660nm). Do not remove the cap from the connector. Once the cap is loosened, insert the one meter fiber into the cap. Now tighten the cap by screwing it back.
+-	-	Connect the other end of the Fiber to detector SFH350V (Photo Transistor Detector) very carefully.
+-	Observe the detected signal at post ANALOG OUT on oscilloscope. Adjust Intensity control pot P2 Optical Power control potentiometer so that you receive signal of 2Vpp amplitude.
+
+<img width="510" height="292" alt="image" src="https://github.com/user-attachments/assets/c57a4a36-f136-49d3-ab19-9bcbdaf12417" />
+
+-	To measure the analog bandwidths of the phototransistor vary the input signal frequency and observe the detected signal at various frequencies.
+-	Plot the detected signal against applied signal frequency and from the plot determine the 3dB down frequency.
+-	Keep switch SW9 towards TX2 position.
+-	Keep Jumper JP7 towards +12V position.
+-	Remove fiber cable from SFH756V (660nm) and slightly unscrew the cap of SFH450V (950nm). Do not remove the cap from the connector. Once the cap is loosened, insert the one meter fiber into the cap. Now tighten the cap by screwing it back.
+-	Observe the detected signal at post ANALOG OUT on oscilloscope.
+
+<img width="510" height="292" alt="image" src="https://github.com/user-attachments/assets/0ddfb985-bc51-4de2-9662-cf91a8b689f0" />
 
 ---
 
